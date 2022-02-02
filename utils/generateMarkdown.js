@@ -1,6 +1,22 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license,licenseChoice) {
+    if (license == licenseChoices[0]){
+        var bag = "https://img.shieds.io/badge/License-Apache%202.0-blue.svg";
+    } else if (license == licenseChoice[1]){
+        var bag = "https://img.shieds.io/badge/License-Apache%202.0-blue.svg";
+    } else {
+        var bag = "";
+    }
+    return "[View Badget] (" + bag + ")";
+    }
+}
+
+
+
+
+
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
