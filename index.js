@@ -18,7 +18,7 @@ const questions = [
     {
         type: 'input',
         name: 'Title',
-        message: 'Whats the name of your projects (Required)',
+        message: 'Enter name of the project',
     },
     {
         type: 'input',
@@ -28,18 +28,18 @@ const questions = [
     {
         type: 'input',
         name: 'Description',
-        message: 'What is the projects about? Give a detailed description of this project',
+        message: 'What is the project about. Describe it in a few words',
     },
     {
         type: 'input',
         name: 'Installation',
-        message: 'What does the user need to install to run/work-on this project',
+        message: 'What applications does the user need to install in order to run this project',
     },
 
     {
         type: 'input',
         name: 'Usage',
-        message: 'How to use this app/project? Please provide instructions',
+        message: 'How do you use this app/project?',
     },
     
     {
@@ -48,14 +48,6 @@ const questions = [
         message: 'Please select license used for this project, from the following list',
         choices: licenseChoices
 
-        // [
-        //     'MIT',
-        //     'BSD 3',
-        //     'APACHE 2.0',
-        //     'GVL-GPL 3.0',
-        //     'Other',
-        //     'None'
-        // ]
     },
     {
         type: 'input',
@@ -65,7 +57,7 @@ const questions = [
     {
         type: 'input',
         name: 'Tests',
-        message: 'How to best test this app/projects? Any special commands for this command line application?',
+        message: 'How do you test this app/projects? ',
     },
     {
         type: 'input',
@@ -75,12 +67,12 @@ const questions = [
     {
         type: 'input',
         name: 'Github',
-        message: 'What is your github username?',
+        message: 'Provide your github username?',
     },
     {
         type: 'input',
         name: 'Email',
-        message: 'What is your email address',
+        message: 'Enter your email address',
     },
 ];
 
