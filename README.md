@@ -14,11 +14,11 @@
     *[Questions](#questions)
 
     #Desription
-    node readme from terminal 
+    making a node readme from the terminal 
 
     #Installation
     The following must be installed to run this application
-    node ,java
+    java, package.json, node
 
     #usage
     In order to use this app, from the terminal
@@ -31,12 +31,13 @@
     Contributors: undefined
 
     #Test
-    The following is needed to run the test: from terminal
+    The following is needed to run the test: from the terminal 
 
     #Questions
     If you have any questions about the repo/projects, please open an issue or contact me 
     via github username: moon9588
     You can also get in contact me via email: mamonam4@gmail.com
+
 
     
     
